@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 56px;
+}
+
+.bg-img1 {
+  height: 500px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./image/photo-1682686581220-689c34afb6ef.avif);
+  background-position: center;
+}
+
+.bg-img2 {
+  height: 500px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./image/photo-1683009427540-c5bd6a32abf6.avif);
+  background-position: center;
+}
+
+.bg-img3 {
+  height: 500px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./image/photo-1693853202947-a4252caf3a3d.avif);
+  background-position: center;
+}
